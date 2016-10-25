@@ -304,9 +304,22 @@ h2{
 }
 h3{
 	font-family: Arial, Helvetica, sans-serif;
-	;
 	color: white;
 	font-size: 11px;
+	text-align: center;
+}
+h4{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	color: black;
+	font-size: 11px;
+	text-align: center;
+}
+h5{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	color: black;
+	font-size: 15px;
 	text-align: center;
 }
 header{
@@ -325,6 +338,19 @@ ul{
 margin: auto;
 padding-top: 4px;
 }
+nav  ul  ul {
+display: none;
+position: absolute;	
+top: 90%;
+left: 6%
+}
+nav li li {
+	left: 6%
+}
+nav li:hover ul{
+	display: block;
+
+}
 li{
 	float: left;
 	list-style-type: none;
@@ -335,6 +361,7 @@ li{
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
 }
+
 section{
 	width: 713px;
 	background: white;
@@ -393,6 +420,25 @@ p{
 }
 
 /*SEUDO CLASES*/
+.ancho_submenu_home{width: 900px;}
+.ancho_submenu_paginas{width: 970px;}
+.submenu:link{
+	color: #FFF;
+	text-decoration: none;
+}
+.submenu:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+.submenu:hover{
+	color: #FF6600;
+	text-decoration: none;
+	/*text-shadow: 0 0 13px white;*/
+}
+.submenu:active{
+	color: #003F5E;
+	text-decoration: none;
+}
 p {
 	font-size: 12px;
 	font-weight: normal;
